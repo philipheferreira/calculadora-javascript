@@ -14,6 +14,7 @@ form{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+  border-collapse: collapse;
 }
 
 #tela{
@@ -56,4 +57,8 @@ form{
 }
 .botaoBorda:active{ 
   transform: scale(1);  
+}
+
+#red{ 
+background-color: crimson;
 }
